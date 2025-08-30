@@ -31,7 +31,7 @@ int main()
     cout <<"The ASCII value for the chosen character is: " << asciiValue << endl;
     
     //using the bool function to say its true that it is hot outside
-    bool is_hot_outside = true
+    bool is_hot_outside = true;
     cout <<"The weather during the day in Alabama is hot outside: " << is_hot_outside << endl;
     
     // Utilizing the const function
