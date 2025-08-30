@@ -11,7 +11,6 @@ int main()
     int num1; //user inputs number
     float num2; //user inputs number
     char ranChar = 'T'; //random character
-    const int totalNum = num1 + num2;
     
     //Getting num1 from user input
     cout <<"Enter an number greater than 0: "<< endl;
@@ -28,6 +27,7 @@ int main()
     cout <<"The current variable for character is: " << ranChar << endl;
     
     //using the bool function to say its true that it is hot outside
+    const int totalNum = num1 + num2;
     cout <<"The weather during the day in Alabama is hot outside: " << is_hot_outside << endl;
     
     // Utilizing the const function
