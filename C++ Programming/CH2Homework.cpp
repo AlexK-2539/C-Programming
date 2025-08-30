@@ -23,8 +23,9 @@ int main()
     cout <<"You have entered the number: " << num2 << endl;
     
     //Calling character variable to module
-    
-    cout <<"The current variable for character is: " << ranChar << endl;
+    cout <<"The chosen character is: " << ranChar << endl;
+    int asciiValue = ranChar;
+    cout <<"The ASCII value for the chosen character is: " << asciiValue << endl;
     
     //using the bool function to say its true that it is hot outside
     bool is_hot_outside = true;
