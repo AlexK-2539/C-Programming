@@ -93,6 +93,7 @@
 				TargetAttributes = {
 					84BBDEA82E5CDD460077F6A0 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 				};
 			};
@@ -244,16 +245,21 @@
 		84BBDEB12E5CDD460077F6A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		84BBDEB22E5CDD460077F6A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
