@@ -1,8 +1,11 @@
-//
-//  Testing.cpp
-//  C++ Programming
-//
-//  Created by Alex Keeling on 8/30/25.
-//
+#include <iostream>
+using namespace std;
 
-#include <stdio.h>
+int main()
+{
+    int x = 23, y = 34, z = 45;
+
+    cout << x << y << z << endl;
+
+    return 0;
+}

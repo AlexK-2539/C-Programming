@@ -1,12 +1,12 @@
-/* CH2Homework.cpp
-C++ Programming */
+/*C++ Programming
+ CIS 251 */
 
 // Created by Alex Keeling
 
 #include <iostream>
 using namespace std;
 
-int main()
+int main1()
 {
     int num1; //user inputs number
     float num2; //user inputs number
