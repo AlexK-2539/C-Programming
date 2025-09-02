@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main1()
+int main()
 {
     int x = 23, y = 34, z = 45;
 
