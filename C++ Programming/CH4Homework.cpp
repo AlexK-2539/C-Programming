@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-int main()
+int main4()
 {
     // Setting the values of the products the movie theater provides per instructions
     float adult_ticket = 12.00;
